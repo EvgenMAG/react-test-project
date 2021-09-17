@@ -38,7 +38,7 @@ ul {
 .main-container::after{
   content: "";
 background-position: 50% 10px;
-  background-image: url(../src/img/map_pexels-637x425.jpeg);
+  /* background-image: url(../src/img/map_pexels-637x425.jpeg); */
   opacity:0.3;
   top: 0;
   left: 0;
