@@ -1,0 +1,57 @@
+
+
+.App {
+  text-align: center;
+}
+
+a {
+  text-decoration:none
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.container{
+  padding-top: 20px;
+  width: 500px;
+  margin: 20px auto;  
+}
+.nav-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container{
+  height: 100vh;
+  display: block;
+  position: relative;
+  
+}
+
+.main-container::after{
+  content: "";
+background-position: 50% 10px;
+  background-image: url(../src/img/map_pexels-637x425.jpeg);
+  opacity:0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.loader{
+  text-align: center;
+  font-size: 30px;
+}
+
+
+

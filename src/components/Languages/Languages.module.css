@@ -1,0 +1,18 @@
+
+.list{
+ padding-left: 20px;
+}
+
+.link{
+   display: block;
+   margin-bottom: 2px;
+   padding: 2px 10px;
+   background-color: rgb(182, 179, 179, 0.1);
+   color: black;
+   border: 1px solid black;
+   border-radius: 15px;
+}
+
+.link:hover{
+   transform: scale(1.05);
+}
